@@ -1,0 +1,49 @@
+# =====================
+# Python Cache & Files
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# =====================
+# SQLite Database
+# =====================
+cli-journal.db
+
+# =====================
+# Journal Entry Files
+# =====================
+entries/
+
+# =====================
+# Virtual Environments
+# =====================
+venv/
+.env/
+env/
+.venv/
+
+# =====================
+# IDEs and Editors
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# =====================
+# Logs and Temp Files
+# =====================
+*.log
+*.tmp
+*.DS_Store
+
+# =====================
+# Dependency Lock Files
+# =====================
+Pipfile.lock
+poetry.lock
